@@ -1,0 +1,105 @@
+/*@import 'reset.css';*/
+
+body {
+	background:url("/img/background.jpg") repeat-x top left transparent;
+}
+
+/*html,body{height:100%;background:url("/img/background.jpg") repeat-x top left transparent;}
+body {font-family: Verdana, monospace;}*/
+
+/*.center {width: 800px;height:auto !important;margin: 0px auto -51px;min-height: 100%;}*/
+/*.container{width:800px;margin:0px auto;overflow:hidden;}*/
+.header-wrapper{padding-bottom:20px;border-bottom:1px solid #d9d9d9;background-color:#f4f4f4;}
+
+.bobek-work  { height: 410px !important; }
+
+@media screen and (max-width: 600px) {
+    .bobek-work  { height: 310px !important; }
+}
+
+@media screen and (max-width: 600px) {
+    .workers .card .card-content .card-title {font-size: 16px;font-weight: 500;line-height: 18px;}
+    .workers .card .card-content { padding: 8px; }
+    .workers .card .card-action { padding: 8px; }
+    .workers .card .card-action > a:not(:last-child) {margin-bottom: 8px;display: block;}
+}
+
+@media screen and (min-width: 600px) {
+    .skill-holder {
+        height: 150px;
+    }
+}
+
+.card-work .card-content .card-title {font-size: 20px;line-height: 25px;}
+
+.header {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .cards .card, .card-work, .card-work.small {
+        height: 120px;
+    }
+    .cards .card .card-content, .card-work .card-content, .card-work.small .card-content {
+        min-height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cards .card {
+        height: 350px;
+    }
+}
+
+/*
+.about {width: 710px;float: left;}
+.about .skills {list-style: none;padding-top: 5px;}
+.about .skills li {float: left;margin-right: 10px;}
+.about .skills li a {font-size: 18px;color: #878787;text-decoration: none;}
+.about .skills li a:hover {text-decoration: underline;}
+.about .titles {clear: both;overflow: hidden;padding-top: 10px;}
+.about .titles .title {float: left;}
+.about .titles .title h1 {font-size: 30px;text-transform: uppercase;}
+.about .titles .title h4 {font-size: 18px;font-weight: normal;line-height:26px;}
+.about .titles .title.ru {padding-left: 10px;}
+.about .titles .title.en {border-right: 3px solid #000;padding-right: 10px;}
+.logotype {width: 85px;float: left;padding-top:20px;text-align:center;}
+.logotype a{text-decoration:none;}
+
+.expert {width: 270px;}
+.expert .photo {position: relative;}
+.expert .photo .face {display:block;}
+.expert .photo .face img {width: 100%;}
+.expert .photo .social {overflow:hidden;padding-top:5px;width:246px;margin:0px auto;}
+.expert .photo .social a {float: left;margin-right: 5px;display: block;}
+.expert .name {text-align: center;padding: 10px 0;}
+.expert .name h4 {font-size: 18px;font-weight: normal;line-height: 22px;}
+.expert .name a {color: #676767;font-size: 18px;font-weight: normal;margin-top: 5px;display: block;text-decoration: none;}
+.expert .name a:hover {text-decoration: underline;}
+.expert .certificate{background-color: #DDDDDD;margin: 0px auto;padding: 5px;width: 100px;}
+
+.content .skills{padding-top:50px;overflow:hidden;}
+.content .skills{text-align:left;}
+.content .skills ul{padding-left:10px;}
+.content .skills ul li{list-style:disc inside;line-height:16px;padding-bottom:5px;font-size:14px;}
+.content .skills ul li a{color:#343434;font-size:14px;text-decoration:none;}
+.content .skills ul li a:hover{text-decoration:underline;}
+.portfolio{padding-top:50px;padding-bottom:80px;overflow:hidden;}
+.section-title{background-color:#F3F3F3;border-bottom: 1px solid #e8e8e8;color:#8B8B8B;font-size:15px;margin-bottom: 15px;padding:10px;text-align:left;}
+
+.works .work{float:left;width:180px;margin:10px;text-align:center;}
+.works .work a{display:block;text-decoration:none;color:black;}
+.works .work img{max-width:100%;}
+.works .work span{display:block;padding-top:5px;font-size:14px;}
+.works .work.ext{width:100%;}
+
+.content {padding: 50px 0 70px 0;clear: both;overflow: hidden;text-align: center;}
+.content .expert {display: inline-block;}
+.content .expert:first-child {margin-right: 70px;}
+
+footer {width: 100%;text-align: center;height: 50px;border-top: 1px solid #d9d9d9;background-color:#f4f4f4;}
+footer h4 {font-size: 14px;color: #676767;line-height: 18px;padding-top: 16px;}
+footer a{text-decoration:none;color: #676767;}
+footer a:hover{text-decoration:underline;}
+*/
